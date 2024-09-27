@@ -10,7 +10,7 @@ This collection of scripts is intended to complement[1] the Hitster game with mo
 
 Either you've played the game enough times to start to recognize that the 300 included songs simply isn't enough to challenge you. Or, you're upset that super mega hits such as 'Enjoy the Silence' by Depeche Mode and 'Thriller' by Michael Jackson[2] have been excluded somehow in the process of making the game.
 
-One of the reasons I made this toolkit was because my family wanted to be able to play a _Eurovision Song Contest version_ of Hitster. You can find that PDF ready for printing in the PDF-folder. You probably have another idea on what would make for the most fun Hitster game ever.
+One of the reasons I made this toolkit was because my family wanted to be able to play a _Eurovision Song Contest version_ of Hitster. You can find that PDF ready for printing in the `decks/ESC` folder. You probably have another idea on what would make for the most fun Hitster game ever.
 
 ### How do I do it?
 
