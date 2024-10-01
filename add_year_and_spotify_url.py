@@ -3,7 +3,7 @@
 import requests
 
 from functools import cache
-from my_spotify_app import CLIENT_ID, CLIENT_SECRET
+from credentials.spotify import CLIENT_ID, CLIENT_SECRET
 
 BASE_URL = 'https://api.spotify.com/v1/'
 AUTH_URL = 'https://accounts.spotify.com/api/token'
