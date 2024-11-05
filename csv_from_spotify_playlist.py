@@ -40,10 +40,16 @@ def get_data(track_id):
 
 def get_playlist_contents(playlist):
     result = []
-    tracks = _spotify_request(BASE_URL + 'playlists/' + playlist + '/tracks')    
-    for item in tracks['items']:
-        track_id = item['track']['id']
-        result.append(get_data(track_id))
+    tracks = _spotify_request(BASE_URL + 'playlists/' + playlist + '/tracks')
+    while True: 
+        for item in tracks['items']:
+            track_id = item['track']['id']
+            result.append(get_data(track_id))
+        
+        if tracks['next']:
+            tracks = _spotify_request(tracks['next'])
+        else:
+            break
 
     return result
 
